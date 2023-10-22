@@ -1,0 +1,33 @@
+email: asmawuibrahim.asfaan1@gmail.com
+password : aByZ1209
+
+git --version
+
+** Configuration is done once **
+1. git config --global user.name “Asmawu Ibrahim”
+git config --global user.email  asmawuibrahim.asfaan1@gmail.com
+git config –-global init.defaultBranch main
+
+git config --list
+
+
+
+** Starting a repository **
+git init
+git add .
+git commit -m “first commit: committing all files to the repository”
+
+git status
+
+
+git remote add origin https://github.com/Asfaam/Name-of-the-repository.git
+git branch -M main
+git push -u origin main
+git push --all
+
+
+
+
+Deleting a file:
+Example -:
+•	git rm savings.xls
